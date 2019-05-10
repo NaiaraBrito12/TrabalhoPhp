@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLClienteController">
+   <children>
+      <Label layoutX="127.0" layoutY="116.0" text="Nome:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="92.0" layoutY="64.0" prefHeight="27.0" prefWidth="136.0" text="Nome do livro ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="163.0" text="Cpf:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="textNome" layoutX="251.0" layoutY="117.0" />
+      <TextField fx:id="txtLivro" layoutX="251.0" layoutY="65.0" />
+      <TextField fx:id="textCpf" layoutX="251.0" layoutY="164.0" />
+      <Button fx:id="salvar" layoutX="251.0" layoutY="223.0" mnemonicParsing="false" onAction="#salvar" text="Salvar">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
